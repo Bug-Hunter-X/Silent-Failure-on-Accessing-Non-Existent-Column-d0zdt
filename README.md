@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in R: silently failing when accessing a non-existent column in a data frame.  The code attempts to add 1 to column 'c', which doesn't exist. Instead of throwing an error, R returns `NA` values, which can be hard to debug. The solution offers a safer method to avoid this issue.
